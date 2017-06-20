@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+
+
+  <title>Document</title>
+  </head>
+ <body>
+ 
+  
+ <!--ส่วนหัว---------------------------------------------------------------->
+<div class="bar bar-header">
+  <button class="button button-icon icon ion-navicon"> </button>
+  <div class="h1 title">EDIT</div>
+</div>
+
+<!--------------------------------------------------------------------->
+
+<!--ฟอร์ม---------------------------------------------------------------->
+<br>
+<br>
+<br>
+
+<form ng-submit="editAdmin()">
+<div class="list">
+<label class="item item-input item-stacked-label">
+    <span class="input-label">Edit Id</span>
+    <input type="text" placeholder="แก้ไขอีเมล์ของคุณ" ng-model ="adminDatas.admin_id">
+  </label>
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">Edit Email</span>
+    <input type="text" placeholder="แก้ไขอีเมล์ของคุณ" ng-model ="adminDatas.admin_user">
+  </label>
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">Edit Password</span>
+	<input type="password" placeholder="แก้ไขรหัสผ่าน" ng-model="adminDatas.admin_password"> 
+  </label>
+ <center> <button type ="submit" class="button button-clear button-positive">
+ ** แก้ไขข้อมูล ** </center>
+</button>
+</div>
+</form>
+
+<!--------------------------------------------------------------------->
+
+
+
+<!----เนื่้อหา----------------------------------------------------------------->
+
+<div class="tabs tabs-icon-top">
+  <a ui-sref="" a class="tab-item">
+    <i class="icon ion-home"></i>
+   <font size = 2>ประวัติส่วนตัว</font> 
+  </a>
+ <a ui-sref="" a class="tab-item">
+    <i class="icon ion-star"></i>
+   <font size = 2> โปรแกรม</font>
+  </a>
+  <a ui-sref="" a class="tab-item"> 
+   <i class="icon ion-gear-a"></i>
+    <font size = 2> ตั้งค่า</font>
+  </a>
+  </a>
+</div>
+
+
+
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
